@@ -31,7 +31,7 @@ def create_chunks(documents):
 text_chunks = create_chunks(documents)
 print(("Chunks Count: "), len(text_chunks))
 
-ollama_model_name = "deepseek-r1:1.5b"
+ollama_model_name = "deepseek-r1:7b"
 def get_embeddings_model(ollama_model_name):
     embeddings = OllamaEmbeddings(model=ollama_model_name)
     return embeddings
