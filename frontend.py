@@ -3,7 +3,7 @@ import streamlit as st
 
 uploadFile = st.file_uploader("Upload the PDF",
                               type="pdf",
-                              accept_multiple_files=False
+                              accept_multiple_files=True
                               )
 
 user_query = st.text_area("Enter your propmt: ", height=150, placeholder="Ask me anything.")
