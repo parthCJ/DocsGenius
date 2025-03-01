@@ -14,7 +14,8 @@ def loadPDF(file_path):
     documents = loader.load()
     return documents
 
-file_path = "pdf's/DeepSeek_R1.pdf"
+# file_path = "pdf's/Divyansh20rathore.pdf"
+file_path = "uploaded_pdfs/current_document.pdf"
 documents = loadPDF(file_path)
 print(len(documents))
 
