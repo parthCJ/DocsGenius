@@ -1,4 +1,4 @@
-from langchain_groq import ChatGroq
+    from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from vectorDataBase import faiss_db
 from dotenv import load_dotenv
